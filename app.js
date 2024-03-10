@@ -64,3 +64,19 @@
 // .then((response)=>{
 //   console.log(response);
 // }))  
+
+//! Part4
+
+// function createDelay() {
+// // create promise
+//     const promise = new Promise((resolve,reject)=>{
+//         reject("Delay failed")
+//     })
+// // handle response and error
+//     promise
+//     .then((response)=>console.log(response))
+//     .catch((error)=>console.log(`Error:${error}`))    
+// }
+
+// createDelay()
+
