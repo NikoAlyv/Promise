@@ -80,3 +80,24 @@
 
 // createDelay()
 
+//! Part5
+// function createDelay() {
+// // create promise
+//     const promise1 = new Promise((resolve,reject)=>{
+//        setTimeout(()=> resolve(`Delay1 time later`),1000)
+//     })
+//     const promise2 = new Promise((resolve,reject)=>{
+//         setTimeout(()=> resolve(`Delay2 time later`),2000)
+//     })
+//     const promise3 = new Promise((resolve,reject)=>{
+//         setTimeout(()=> resolve(`Delay3  time later`),3000)
+//     })
+    
+// // use Promise.all to wait for all  the promises to resolve
+// Promise.all([promise1,promise2,promise3])
+// .then((response)=>{
+//     console.log(response);
+// })
+    
+// }
+// createDelay()
