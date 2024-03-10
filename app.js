@@ -29,3 +29,38 @@
 // }
 
 // createDelay();
+//! Part3
+
+
+// function createDelay(time) {
+//     // create promise
+// return promise = new Promise((resolve, reject) => {
+//         setTimeout(()=>resolve(`Delay ${time} millisecond later`),time)  
+//     }
+//     )
+//   }
+
+//? method 1
+// type in a promise chain to console 
+
+//   createDelay(500)
+//   .then((response)=>{
+//     console.log(response);
+//     return createDelay(1000)
+//   })
+//   .then((response)=>{
+//     console.log(response);
+//     return createDelay(1500)
+//   })
+//   .then((response)=>{
+//     console.log(response);
+//   })
+
+//? method 2
+// different time  in array for setTimeout
+
+// const differTime =[500,1000,1500]
+// differTime.map((time)=>createDelay(time)
+// .then((response)=>{
+//   console.log(response);
+// }))  
